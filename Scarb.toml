@@ -1,0 +1,13 @@
+[package]
+name = "ai_decision_market"
+version = "0.1.0"
+
+[dependencies]
+starknet = { version = "2.5.3" }
+
+[tool]
+serra-checks = true
+
+[[target.starknet-contract]]
+sierra = true
+casm = true
